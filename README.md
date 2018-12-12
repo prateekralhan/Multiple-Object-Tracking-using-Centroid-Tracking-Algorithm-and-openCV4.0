@@ -16,16 +16,15 @@ An ideal object tracking algorithm will:
     Be able to pick up objects it has “lost” in between frames
     
 ## The centroid tracking algorithm
+The centroid tracking algorithm is a multi-step process.
 
-### STEP 1: The centroid tracking algorithm is a multi-step process. We will review each of the tracking steps in this section.
+### STEP 1: Compute Euclidean distance between new bounding boxes and existing objects
 
-### STEP 2: Compute Euclidean distance between new bounding boxes and existing objects
+### STEP 2: Update (x, y)-coordinates of existing objects
 
-### STEP 3: Update (x, y)-coordinates of existing objects
+### STEP 3: Register new objects
 
-### STEP 4: Register new objects
-
-### STEP 5: Deregister old objects
+### STEP 4: Deregister old objects
 
 ### Run command: 
 python object_tracker.py --prototxt deploy.prototxt --model res10_300x300_ssd_iter_140000.caffemodel
