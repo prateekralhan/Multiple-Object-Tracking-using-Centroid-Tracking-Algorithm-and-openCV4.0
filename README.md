@@ -27,4 +27,7 @@ An ideal object tracking algorithm will:
 
 ### STEP 5: Deregister old objects
 
-### Run command: python object_tracker.py --prototxt deploy.prototxt --model res10_300x300_ssd_iter_140000.caffemodel
+### Run command: 
+python object_tracker.py --prototxt deploy.prototxt --model res10_300x300_ssd_iter_140000.caffemodel
+
+![screenshot from 2018-12-12 13-08-38](https://user-images.githubusercontent.com/29462447/49854124-3a3f6d80-fe0f-11e8-820b-61edbfc38d3c.png)
